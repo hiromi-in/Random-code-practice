@@ -11,7 +11,15 @@ const p = document.createElement('p');
 p.classList.add('para')
 container.appendChild(p);
 p.style.color='red';
-p.innerHTML = "<span>Hey I'm red!</span>";  
+p.innerHTML = "<p>Hey I'm red!</p>";  
+
+const blue = document.createElement('h3');
+blue.classList.add('para');
+container.appendChild(blue);
+blue.style.color = 'blue';
+blue.innerHTML = "<h3>Hey I'm blue h3!</h3>";
+
+
 
 
 /*
