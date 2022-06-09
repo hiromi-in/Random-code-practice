@@ -19,6 +19,22 @@ container.appendChild(blue);
 blue.style.color = 'blue';
 blue.innerHTML = "<h3>Hey I'm blue h3!</h3>";
 
+const bP = document.createElement('div');
+bP.classList.add('para');
+container.appendChild(bP);
+bP.style.cssText = 'border: solid  black 2px; background: pink;';  
+
+const h1Div = document.createElement('h1');
+bP.appendChild(h1Div);
+h1Div.innerHTML = "i'm in a div";
+
+const p2 = document.createElement('p');
+bP.appendChild(p2);
+p2.innerHTML = 'Me TOO!';
+
+
+
+
 
 
 
